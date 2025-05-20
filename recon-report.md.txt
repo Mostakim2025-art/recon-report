@@ -1,0 +1,72 @@
+
+# 🕵️ Reconnaissance Report
+
+## 🎯 Target: `testphp.vulnweb.com`  
+(Legal Practice Target by Acunetix)
+
+---
+
+## 🛠️ Tools Used
+
+| Tool         | Purpose                         |
+|--------------|---------------------------------|
+| `whois`      | Domain ownership info           |
+| `dig` / `nslookup` | DNS records check              |
+| `sublist3r`  | Subdomain enumeration           |
+| `nmap`       | Port & service scan             |
+| `Google Dork`| Passive recon (hidden info)     |
+
+---
+
+## 🔍 Information Collected
+
+### 🗂️ WHOIS Info:
+```
+(Insert whois output here)
+```
+
+### 🌐 DNS Records:
+```
+(Insert `dig` or `nslookup` output)
+```
+
+### 🧭 Subdomains Found:
+```
+(Insert list from Sublist3r or Amass)
+```
+
+### 🔎 Google Dorking:
+```
+site:testphp.vulnweb.com inurl:admin
+site:testphp.vulnweb.com filetype:pdf
+(Insert findings or notes)
+```
+
+### 🔌 Nmap Scan Results:
+```bash
+nmap -sS -sV -A testphp.vulnweb.com
+```
+
+```
+(Insert top ports/services and findings)
+```
+
+---
+
+## 📷 Screenshots / Notes
+
+- Screenshot of terminal output (if any)
+- Notes about interesting ports, subdomains or misconfigurations
+
+---
+
+## 🧠 Summary
+
+- Target is reachable and ports open
+- Web service detected
+- Possible entry points: …
+- No sensitive data publicly exposed (or found X file via Google Dork)
+
+---
+
+✅ *This report is for ethical hacking practice purposes only.*
